@@ -13,7 +13,7 @@ MOBITC_Aide<-function(chem_mobitc)
 				fois en compte la projection de la régression linéaire et ses intervalles de confiance. "))
   
   aide_init=div(h3("Objectifs :"),
-                p(paste("Dans ce menu, un fichier d'initialisation est créé ou mis à jour dans le répertoire ",chem_mobitc," pour stocker le chemin du répertoire de travail et les principaux noms des fichiers créés par MobiTC.")),
+                p(paste("Dans ce menu, un fichier d'initialisation est créé ou mis à jour dans le répertoire de travail pour stocker le chemin du répertoire de travail et les principaux noms des fichiers créés par MobiTC.")),
                 p("Ce fichier est mis à jour au fur et à mesure que les différentes étapes de MobiTC ont été lancées."),
                 p("Ce fichier permet la mise à jour des noms de fichier dans les différents menus de MobiTC. Lorsque les boutons",
                   em("Actualiser le menu"),
